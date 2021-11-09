@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+    width: 600px;
+    margin: 120px auto;
+    clear: both;
+}
+.photo{
+    width: 300px;
+    float: left;
+}
+.photo img{
+    width: 280px;
+}
+.content{
+    width: 298px;
+    float: right;
+}
+.top p{
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(204,19,19);
+}
+.title{
+    padding: 80px 0;
+}
+.title p{
+    line-height: 40px;
+}
+
+.form{
+    text-align: right;
+}
+#number-task{
+    width: 290px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #999;
+    text-indent: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
+::-moz-placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
+::-moz-placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
+::-ms-input-placeholder{
+    font-size: 15px;
+    font-weight: bold;
+}
+#button-task{
+    background: none;
+    border: 1px solid #999;
+    height: 40px;
+    width: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.data{
+    height: 60px;
+}
+.data p{
+    line-height: 40px;
+}
+#date{
+    width: 230px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#get-tracker{
+    background: none;
+    border: 3px solid #999;
+    height: 40px;
+    width: 290px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.total-tracker{
+    border: 2px solid #999;
+    padding: 10px;
+}
+.total-tracker p{
+    border-bottom: 1px dashed #999;
+    line-height: 30px;
+}
+#total{
+    text-align: right;
+}
